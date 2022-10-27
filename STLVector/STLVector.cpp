@@ -91,7 +91,7 @@ public:
 		_capacity = capacity;
 		
 		T* newData = new T[_capacity];
-
+		
 		for (int i = 0; i < _size; i++)
 		
 			newData[i] = _data[i];	
